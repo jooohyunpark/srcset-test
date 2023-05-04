@@ -5,6 +5,8 @@ const App = () => {
   return (
     <div>
       {/* https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes */}
+
+      <h2>vw unit</h2>
       <img
         srcSet="https://picsum.photos/300 300w, https://picsum.photos/600 600w, https://picsum.photos/900 900w, https://picsum.photos/1200 1200w"
         sizes="(min-width: 1000px) 25vw, (min-width: 500px) 50vw, 100vw"
@@ -12,6 +14,7 @@ const App = () => {
 
       <hr />
 
+      <h2>px unit</h2>
       <div style={{ width: 800, background: 'orange' }}>
         <img
           srcSet="https://picsum.photos/300 300w, https://picsum.photos/600 600w, https://picsum.photos/900 900w, https://picsum.photos/1200 1200w"
